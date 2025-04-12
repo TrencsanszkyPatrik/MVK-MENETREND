@@ -1,0 +1,138 @@
+/* Járat megjelenítési animációk */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(13, 110, 253, 0.4);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 5px rgba(13, 110, 253, 0);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(13, 110, 253, 0);
+    }
+}
+
+/* Járat és megálló elemek animációi */
+.trip-item, .stop-item {
+    animation: slideIn 0.5s ease-out forwards;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.trip-item:nth-child(1) { animation-delay: 0.1s; }
+.trip-item:nth-child(2) { animation-delay: 0.2s; }
+.trip-item:nth-child(3) { animation-delay: 0.3s; }
+.trip-item:nth-child(4) { animation-delay: 0.4s; }
+.trip-item:nth-child(5) { animation-delay: 0.5s; }
+
+.trip-item:hover, .stop-item:hover {
+    animation: pulse 1.5s infinite;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Térkép átmenet animáció */
+.map-container {
+    transition: all 0.5s ease-in-out;
+    transform-origin: top;
+}
+
+.map-container.collapsed {
+    height: 0;
+    opacity: 0;
+    transform: scaleY(0);
+    overflow: hidden;
+}
+
+/* Fókusz stílusok */
+.trip-item:focus, .stop-item:focus {
+    outline: 3px solid #0d6efd;
+    outline-offset: 2px;
+    animation: pulse 1.5s infinite;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Betöltési animáció */
+.loading-spinner {
+    animation: spin 1s linear infinite;
+    border: 3px solid rgba(0,0,0,0.1);
+    border-radius: 50%;
+    border-top: 3px solid #0d6efd;
+    width: 30px;
+    height: 30px;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Kártya animációk */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Gomb animációk */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Navigációs link animációk */
+.nav-link {
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Kedvenc gomb animáció */
+.favorite-btn {
+    transition: all 0.3s ease;
+}
+
+.favorite-btn:hover {
+    transform: scale(1.2);
+    color: #ffc107;
+} 

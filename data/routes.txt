@@ -1,0 +1,55 @@
+agency_id,route_id,route_short_name,route_long_name,route_type
+31,15074,1V,Tiszai pu. - Felső-Majláth,0
+31,15142,AU1,Auchan Borsod áruház - Selyemrét - Centrum,3
+31,15145,AU2,Avas kilátó - Hejőpark - Auchan Dél áruház,3
+31,15168,3A,Repülőtér / Bosch - Kassai u. - Szinvapark - Tiszai pu. - Martinkertváros,3
+31,15170,34,Avas kilátó - Bodótető,3
+31,15172,8,Repülőtér / Bosch - Tiszai pu. - Hűtőház,3
+31,15176,16,Újgyőri főtér - Bányaüzem,3
+31,15178,24,Repülőtér / Bosch - Kassai u. - Szinvapark - Középszer u.,3
+31,15182,32,Avas kilátó - Szinvapark - Búza tér - Gömöri pu.,3
+31,15187,35,Avas kilátó - Centrum,3
+31,15188,12,Repülőtér / Bosch - Centrum - Egyetemváros,3
+31,15190,14,Repülőtér / Bosch - Villanyrendőr - Hejőpark,3
+31,15192,6,Újgyőri főtér - Pereces,3
+31,15200,29,Újgyőri főtér - Vargahegy - Avas - Győri kapu - Újgyőri főtér,3
+31,15212,9,Újgyőri főtér - Diósgyőri Kórház - Tokaji F. u.,3
+31,15213,7,Búza tér - Selyemrét - Felsőzsolca,3
+31,15214,21,Szondi Gy. u. - Tiszai pu. - Üveggyár - Kandó K. u. - Berekalja,3
+31,15216,1,Tiszai pu. - Felső-Majláth - Majális park,3
+31,15220,19,Újgyőri főtér - Komlóstető,3
+31,15224,15,Felső-Majláth - Lillafüred - Ómassa,3
+31,15227,4,Búza tér - Görömböly,3
+31,15234,11,Búza tér - Bábonyibérc,3
+31,15236,31,Tiszai pu. - Avas városközpont - Avas kilátó,3
+31,15238,20,Repülőtér / Bosch - Búza tér - Centrum - Egyetemi koll. - Miskolctapolca,3
+31,15242,68,Újgyőri főtér - Bükkszentlászló,3
+31,15247,5,Felső-Majláth - Lillafüred,3
+31,15251,ZOO,Felső-Majláth - Vadaspark,3
+31,15253,3,Búza tér - Tiszai pu. - Martinkertváros - Szirma,3
+31,15254,44,"Búza tér - Auchan Dél áruház - Déli Ipari Park, Joyson",3
+31,15256,22,Búza tér - Centrum - Egyetemváros,3
+31,15486,43,"Búza tér - Déli Ipari Park, Joyson",3
+31,15800,30,Tiszai pu. - Szentgyörgy út - Avas kilátó,3
+31,15801,54,Repülőtér / Bosch - Felső-Majláth,3
+31,15802,28,Búza tér - Tampere városrész,3
+31,16364,240,Repülőtér / Bosch - Mechatronikai Park,3
+31,17378,45,Búza tér - Galamb J. u. - Szirma - Joyson - Auchan Dél áruház,3
+31,17424,53,"Majális park - Vargahegy - Déli Ipari Park, Joyson",3
+31,18321,101B,Szondi Gy. u. - Tiszai pu. - Búza tér - Kandó K. u. - Berekalja,3
+31,19289,1AV,Tiszai pu. - Diósgyőri Gimnázium,0
+31,19290,2V,Tiszai pu. - Újgyőri főtér,0
+31,19291,1G,Szondi Gy. u. - Újgyőri főtér - Felső-Majláth,3
+31,19292,12G,Szondi Gy. u. - Búza tér - Repülőtér / Bosch,3
+31,19293,14G,Repülőtér / Bosch - Villanyrendőr - Szondi Gy. u.,3
+31,20274,35G,Avas kilátó - Lévai J. u. - Szondi Gy. u.,3
+31,21563,34G,Szondi Gy. u. - Bodótető,3
+31,22529,900,Szondi Gy. u. - Tiszai pu. - Avas - Egyetemi koll. - Hejőcsaba - Szondi Gy. u.,3
+31,22693,1VP,Tiszai pu. - Felső-Majláth,3
+31,23901,36,Avas kilátó - Villanyrendőr - Repülőtér / Bosch,3
+31,23902,39,Újgyőri főtér - Győri kapu - Avas - Vargahegy - Újgyőri főtér,3
+31,23903,901,Felső-Majláth - Villanyrendőr - Tiszai pu. - Szondi Gy u.,3
+31,23904,914,Repülőtér / Bosch - Búza tér - Villanyrendőr - Hejőcsaba - Miskolctapolca,3
+31,23905,935,Avas kilátó - Szentgyörgy út - Villanyrendőr - Szondi Gy. u.,3
+31,23906,20A,Búza tér - Centrum - Egyetemi koll. - Miskolctapolca,3
+31,23907,21G,Szondi Gy. u. - Wesselényi u. - Újgyőri főtér,3
